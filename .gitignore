@@ -22,3 +22,5 @@
 /FactoryPatterns/SimpleFactory/obj
 /FactoryPatterns/FactoryMethod/bin/Debug/net7.0
 /FactoryPatterns/FactoryMethod/obj
+/FactoryPatterns/AbstractFactory/bin/Debug/net7.0
+/FactoryPatterns/AbstractFactory/obj

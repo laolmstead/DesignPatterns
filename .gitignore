@@ -20,3 +20,5 @@
 /FactoryPatterns/.vs
 /FactoryPatterns/SimpleFactory/bin/Debug/net7.0
 /FactoryPatterns/SimpleFactory/obj
+/FactoryPatterns/FactoryMethod/bin/Debug/net7.0
+/FactoryPatterns/FactoryMethod/obj

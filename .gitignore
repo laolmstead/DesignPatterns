@@ -24,3 +24,6 @@
 /FactoryPatterns/FactoryMethod/obj
 /FactoryPatterns/AbstractFactory/bin/Debug/net7.0
 /FactoryPatterns/AbstractFactory/obj
+/SingletonPattern/.vs/SingletonPattern
+/SingletonPattern/SingletonPattern/bin/Debug/net7.0
+/SingletonPattern/SingletonPattern/obj

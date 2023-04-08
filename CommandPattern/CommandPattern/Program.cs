@@ -33,24 +33,7 @@ for (int i = 0; i < 100; i++)
     }
 }
 
-int runCount = RandomNumberGenerator.GetInt32(10, 50);
-
-for (int i = 0; i < runCount; i++)
-{
-    calculator.ExecuteOperation();
-}
-
-for (int i = 0; i < 5; i++)
-{
-    calculator.UndoOperation();
-}
-
 for (int i = 0; i < calculator.CommandCount; i++)
 {
     calculator.ExecuteOperation();
-}
-
-for (int i = 0; i < calculator.UndoCommandCount; i++)
-{
-    calculator.UndoOperation();
 }

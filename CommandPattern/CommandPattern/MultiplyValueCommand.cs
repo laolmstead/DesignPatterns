@@ -19,10 +19,5 @@ namespace CommandPattern
         {
             _MultiplyValue.Multiply();
         }
-
-        public void Undo()
-        {
-            _MultiplyValue.Undo();
-        }
     }
 }

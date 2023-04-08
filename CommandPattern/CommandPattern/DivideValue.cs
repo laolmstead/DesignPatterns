@@ -31,18 +31,5 @@ namespace CommandPattern
                 Console.WriteLine($"Error: Unable to divide by 0!");
             }
         }
-
-        public void Undo()
-        {
-            if (_DividedValue == 0)
-            {
-                Console.WriteLine("Skipping invalid dividing by 0 operation...");
-            }
-
-            _EndingValue = _StartingValue;
-
-            Console.WriteLine("Undoing divide...");
-            Console.WriteLine($"Current value = {_EndingValue}");
-        }
     }
 }

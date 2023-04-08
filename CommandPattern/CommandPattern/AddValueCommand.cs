@@ -19,10 +19,5 @@ namespace CommandPattern
         {
             _AddValue.Add();
         }
-
-        public void Undo()
-        {
-            _AddValue.Undo();
-        }
     }
 }

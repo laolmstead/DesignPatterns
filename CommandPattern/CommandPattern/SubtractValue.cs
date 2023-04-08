@@ -22,15 +22,7 @@ namespace CommandPattern
         public void Subtract()
         {
             _EndingValue = _StartingValue - _SubtractedValue;
-            Console.WriteLine($"Multiplying... {_StartingValue} - {_SubtractedValue} = {_EndingValue}");
-        }
-
-        public void Undo()
-        {
-            _EndingValue = _StartingValue;
-
-            Console.WriteLine("Undoing subtract...");
-            Console.WriteLine($"Current value = {_EndingValue}");
+            Console.WriteLine($"Subtracting... {_StartingValue} - {_SubtractedValue} = {_EndingValue}");
         }
     }
 }

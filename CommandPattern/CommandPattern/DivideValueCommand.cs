@@ -19,10 +19,5 @@ namespace CommandPattern
         {
             _DivideValue.Divide();
         }
-
-        public void Undo()
-        {
-            _DivideValue.Undo();
-        }
     }
 }

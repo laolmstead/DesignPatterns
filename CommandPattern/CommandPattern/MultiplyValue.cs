@@ -24,13 +24,5 @@ namespace CommandPattern
             _EndingValue = _StartingValue * _MultipliedValue;
             Console.WriteLine($"Multiplying... {_StartingValue} * {_MultipliedValue} = {_EndingValue}");
         }
-
-        public void Undo()
-        {
-            _EndingValue = _StartingValue;
-
-            Console.WriteLine("Undoing multiply...");
-            Console.WriteLine($"Current value = {_EndingValue}");
-        }
     }
 }

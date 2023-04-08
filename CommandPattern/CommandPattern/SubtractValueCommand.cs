@@ -19,10 +19,5 @@ namespace CommandPattern
         {
             _SubtractValue.Subtract();
         }
-
-        public void Undo()
-        {
-            _SubtractValue.Undo();
-        }
     }
 }

@@ -24,13 +24,5 @@ namespace CommandPattern
             _EndingValue = _StartingValue + _AddedValue;
             Console.WriteLine($"Adding... {_StartingValue} + {_AddedValue} = {_EndingValue}");
         }
-
-        public void Undo()
-        {
-            _EndingValue = _StartingValue;
-
-            Console.WriteLine("Undoing add...");
-            Console.WriteLine($"Current value = {_EndingValue}");
-        }
     }
 }

@@ -32,3 +32,7 @@
 /CommandPattern/CommandPattern/obj
 /SingletonPattern/.vs/ProjectEvaluation/singletonpattern.metadata.v5.2
 /SingletonPattern/.vs/ProjectEvaluation
+/AdapterPattern/.vs/AdapterPattern
+/CommandPattern/.vs/ProjectEvaluation
+/AdapterPattern/AdapterPattern/bin/Debug/net7.0
+/AdapterPattern/AdapterPattern/obj
